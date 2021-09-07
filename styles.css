@@ -3,6 +3,7 @@
 :root {
   --primary-color: #c4b004e5;
   --grey-color: grey;
+  --off-white: #f3f5f7;
 }
 
 body {
@@ -27,7 +28,7 @@ hr {
   padding: 0.5rem 1rem;
 }
 
-.link-primary {
+.link.link-primary {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
@@ -48,6 +49,10 @@ hr {
   padding: 0rem 0.5rem;
 }
 
+.list-item-inline.link {
+  color: white;
+}
+
 .navigation {
   background-color: var(--primary-color);
   color: white;
@@ -61,10 +66,6 @@ hr {
 
 .list-non-bullet.nav-pills {
   text-align: right;
-}
-
-.link {
-  color: white;
 }
 
 .link.link-active {
@@ -87,4 +88,32 @@ hr {
 
 .heading-inverted {
   color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section.ow {
+  background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.link {
+  color: white;
 }
