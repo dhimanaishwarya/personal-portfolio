@@ -33,24 +33,25 @@
 
     <hr>
     <h2>@lists</h2>
-    <ul>
-        <h3>Unordered list</h3>
+    <h3>Unordered list</h3>
+    <p>This list will not have the bullet</p>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
         <li>Item Four</li>
     </ul>
 
-    <ul>
-        <h3>Unordered inline list</h3>
-        <li>Inline one</li>
-        <li>Inline two</li>
-        <li>Inline three</li>
-        <li>Inline four</li>
+    <h3>Unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline one</li>
+        <li class="list-item-inline">Inline two</li>
+        <li class="list-item-inline">Inline three</li>
+        <li class="list-item-inline">Inline four</li>
     </ul>
 
-    <ol>
-        <h3>Reverse Ordered list</h3>
+    <h3>Reverse Ordered list</h3>
+    <ol reversed>
         <li>A</li>
         <li>B</li>
         <li>C</li>
@@ -60,23 +61,26 @@
 
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>I am a brand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">I am a brand</div>
+        <ul class="list-non-bullet  nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
 
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="images/undraw_voice_interface_eckp.svg" />
-        <h1>Heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/undraw_voice_interface_eckp.svg" />
+        <h1 class="hero-heading">Heading <span class="heading-inverted">inside</span> hero</h1>
     </header>
     <hr>
     <h2>@section</h2>
