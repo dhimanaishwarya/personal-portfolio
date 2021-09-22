@@ -6,4 +6,4 @@ This is my personal portfolio to showcase my skills in:
 2. JavaScript
 3. Git/GitHub
 4. NodeJS
-5. npm-library (Readline-Sync, Chalk)
+5. npm-library (Readline-Sync,Chalk)
