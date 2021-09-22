@@ -2,9 +2,8 @@
 Hello ! I am Aishwarya Dhiman.
 This is my personal portfolio to showcase my skills in:
 
-*HTML/CSS
-*JavaScript
-*Git/GitHub
-*NodeJS
-*Chalk (npm library)
-*Readline-Sync (npm library)
+1. HTML/CSS
+2. JavaScript
+3. Git/GitHub
+4. NodeJS
+5. npm-library (Readline-Sync, Chalk)
