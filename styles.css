@@ -3,6 +3,7 @@
 :root {
   --primary-color: #374151;
   /* #c4b004e5; */
+  --secondary-color: #fbbf24;
   --grey-color: grey;
   --off-white: #f3f5f7;
 }
@@ -27,11 +28,17 @@ hr {
 
 .link {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
 }
 
 .link.link-primary {
   background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link.link-primary:hover {
+  background-color: var(--secondary-color);
   border-radius: 0.5rem;
   color: white;
 }
@@ -87,6 +94,9 @@ hr {
   padding-top: 1rem;
   color: var(--grey-color);
   text-align: center;
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
 .heading-inverted {
@@ -119,4 +129,30 @@ hr {
 
 .link {
   color: white;
+}
+
+#welcome {
+  color: #fbbf24;
+}
+
+p {
+  font-size: large;
+  padding: 0.5rem;
+}
+
+.social-img,
+a,
+li {
+  width: 40px;
+  padding: 0.2rem;
+}
+
+.blog-box {
+  border: 1px solid var(--secondary-color);
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.blog-page {
+  text-align: justify;
 }
