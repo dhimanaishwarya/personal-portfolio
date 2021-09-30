@@ -149,10 +149,14 @@ li {
 
 .blog-box {
   border: 1px solid var(--secondary-color);
-  padding: 100px;
+  /* padding: 100px; */
   border-radius: 10px;
 }
 
 .blog-page {
   text-align: justify;
+}
+
+.section.blog {
+  padding: 1px;
 }
